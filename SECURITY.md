@@ -7,7 +7,7 @@ A segurança dos usuários e colaboradores do Visionário é prioridade. Este do
 Se você encontrar uma falha de segurança, por favor:
 
 1. **Não abra uma issue pública.**
-2. Envie um e-mail para: aureo@visionario.dev
+2. Envie um e-mail para: djanael@gmail.com
 3. Inclua detalhes técnicos e passos para reproduzir o problema.
 4. Aguarde resposta em até 72 horas.
 
