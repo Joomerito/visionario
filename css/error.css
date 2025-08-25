@@ -1,0 +1,31 @@
+body.error-page {
+  background-color: #f8f8f8;
+  color: #333;
+  font-family: var(--font-family);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  padding: 2rem;
+}
+
+main {
+  max-width: 600px;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #c00;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+a {
+  color: var(--color-primary);
+  font-weight: bold;
+}

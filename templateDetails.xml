@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="5.0" type="template" client="site" method="upgrade">
+
+  <!-- 🔖 Informações básicas do template -->
+  <name>visionario</name>                      <!-- Nome do template -->
+  <version>1.0</version>                      <!-- Versão inicial -->
+  <creationDate>2025-08</creationDate>         <!-- Data de criação -->
+  <author>Áureo</author>                       <!-- Autor do template -->
+  <authorEmail>djanael@gmail.com</authorEmail> <!-- E-mail do autor -->
+  <copyright>MIT License</copyright>           <!-- Licença de uso -->
+  <description>TPL_VISIONARIO_DESC</description> <!-- Descrição (traduzida via INI) -->
+  <inheritable>1</inheritable>                 <!-- Permite herança de estilos -->
+
+  <!-- 📁 Arquivos incluídos no template -->
+  <files>
+
+    <!-- Arquivos principais do Joomla -->
+    <filename>component.php</filename>
+    <filename>error.php</filename>
+    <filename>helper.php</filename>
+    <filename>index.php</filename>
+    <filename>offline.php</filename>
+    <filename>templateDetails.xml</filename>
+	<filename>template_Preview.png</filename>
+	<filename>template_Thumbnails.png</filename>
+
+    <!-- Arquivos de funcionalidades extras -->
+    <filename>intro-tour.js</filename>         <!-- Tour guiado para novos usuários -->
+    <filename>performance-panel.js</filename>  <!-- Painel de desempenho -->
+
+    <!-- Arquivos para Progressive Web App -->
+    <filename>manifest.json</filename>
+    <filename>service-worker.js</filename>
+
+    <!-- Arquivos de documentação e governança -->
+    <filename>CHANGELOG.md</filename>
+    <filename>CODE_OF_CONDUCT.md</filename>
+    <filename>CONTRIBUTING.md</filename>
+    <filename>ERRORLOG.md</filename>
+    <filename>FUNDING.yml</filename>
+    <filename>LICENSE.txt</filename>
+    <filename>README.md</filename>
+    <filename>ROADMAP.md</filename>
+    <filename>SECURITY.md</filename>
+
+    <!-- Ícones e favicons -->
+    <filename>images/icons/android-chrome-192x192.png</filename>
+    <filename>images/icons/android-chrome-512x512.png</filename>
+    <filename>images/icons/apple-touch-icon.png</filename>
+    <filename>images/icons/favicon-16x16.png</filename>
+    <filename>images/icons/favicon-32x32.png</filename>
+    <filename>images/icons/favicon.ico</filename>
+    <filename>images/icons/site.webmanifest.json</filename>
+
+    <!-- Pastas organizadas por função -->
+    <folder>css</folder>        <!-- Estilos -->
+    <folder>html</folder>       <!-- Overrides de componentes -->
+    <folder>images</folder>     <!-- Imagens do template -->
+    <folder>js</folder>         <!-- Scripts JavaScript -->
+    <folder>language</folder>   <!-- Arquivos de idioma -->
+
+  </files>
+
+  <!-- 🌐 Idiomas suportados -->
+  <languages>
+    <!-- Inglês britânico -->
+    <language tag="en-GB">language/en-GB/en-GB.tpl_visionario.ini</language>
+    <language tag="en-GB">language/en-GB/en-GB.tpl_visionario.sys.ini</language>
+
+    <!-- Português brasileiro -->
+    <language tag="pt-BR">language/pt-BR/pt-BR.tpl_visionario.ini</language>
+    <language tag="pt-BR">language/pt-BR/pt-BR.tpl_visionario.sys.ini</language>
+  </languages>
+
+  <!-- 📌 Posições de módulo disponíveis -->
+  <positions>
+
+    <!-- 🧭 Navegação e busca -->
+    <position>breadcrumb</position>         <!-- Caminho de navegação -->
+    <position>nav-helper</position>         <!-- Navegação auxiliar (scroll, atalhos) -->
+    <position>smart-search</position>       <!-- Busca inteligente com sugestões -->
+    <position>top-menu</position>           <!-- Menu superior separado -->
+    <position>voice-search</position>       <!-- Busca por voz com acessibilidade -->
+
+    <!-- 🧱 Estrutura visual e layout -->
+    <position>aside-left</position>         <!-- Barra lateral esquerda -->
+    <position>aside-right</position>        <!-- Barra lateral direita -->
+    <position>bottom-bar</position>         <!-- Barra inferior fixa -->
+    <position>footer</position>             <!-- Rodapé principal -->
+    <position>header</position>             <!-- Cabeçalho do site -->
+    <position>hero</position>               <!-- Área de destaque visual -->
+    <position>main-top</position>           <!-- Área principal superior -->
+    <position>main-top-1</position>         <!-- Subárea de conteúdo -->
+    <position>main-top-2</position>
+    <position>main-top-3</position>
+    <position>main-top-4</position>
+    <position>main-top-5</position>
+    <position>pre-footer</position>         <!-- Área acima do rodapé -->
+    <position>sticky-bar</position>         <!-- Barra fixa no topo ou rodapé -->
+    <position>top-bar</position>            <!-- Barra superior com utilidades -->
+
+    <!-- 📱 Menus ocultos e responsivos -->
+    <position>offcanvas</position>          <!-- Menu lateral oculto padrão -->
+    <position>offcanvas-left</position>     <!-- Menu oculto lateral esquerdo -->
+    <position>offcanvas-right</position>    <!-- Menu oculto lateral direito -->
+
+    <!-- 🎯 Módulos de ação e engajamento -->
+    <position>cta-banner</position>         <!-- Chamada para ação (botões, promoções) -->
+    <position>floating-widget</position>    <!-- Widget flutuante (chat, atalhos rápidos) -->
+    <position>newsletter</position>         <!-- Captura de e-mail ou inscrição -->
+    <position>popup</position>              <!-- Janela emergente para alertas ou formulários -->
+    <position>social-bar</position>         <!-- Ícones de redes sociais -->
+
+    <!-- 🤖 Inteligência e acessibilidade -->
+    <position>ai-helper</position>          <!-- Assistente inteligente (chat, sugestões) -->
+
+  </positions>
+
+  <!-- ⚙️ Configurações disponíveis no painel administrativo -->
+  <config>
+    <fields name="params">
+
+      <!-- 🎨 Aparência visual -->
+      <fieldset name="appearance" label="TPL_VISIONARIO_FIELDSET_APPEARANCE">
+        <field name="primaryColor" type="color" label="TPL_VISIONARIO_PRIMARY_COLOR" description="TPL_VISIONARIO_PRIMARY_COLOR_DESC" default="#0d6efd" />
+        <field name="fontFamily" type="list" label="TPL_VISIONARIO_FONT_FAMILY" description="TPL_VISIONARIO_FONT_FAMILY_DESC">
+          <option value="system-ui">System UI</option>
+          <option value="sans-serif">Sans Serif</option>
+          <option value="serif">Serif</option>
+        </field>
+        <field name="darkMode" type="radio" label="TPL_VISIONARIO_DARK_MODE" description="TPL_VISIONARIO_DARK_MODE_DESC" default="0">
+          <option value="1">JYES</option>
+          <option value="0">JNO</option>
+        </field>
+      </fieldset>
+
+      <!-- ♿ Acessibilidade -->
+      <fieldset name="accessibility" label="TPL_VISIONARIO_FIELDSET_ACCESSIBILITY">
+        <field name="focusVisible" type="radio" label="TPL_VISIONARIO_FOCUS_VISIBLE" description="TPL_VISIONARIO_FOCUS_VISIBLE_DESC" default="1">
+          <option value="1">JYES</option>
+          <option value="0">JNO</option>
+        </field>
+        <field name="ariaRoles" type="radio" label="TPL_VISIONARIO_ARIA_ROLES" description="TPL_VISIONARIO_ARIA_ROLES_DESC" default="1">
+          <option value="1">JYES</option>
+          <option value="0">JNO</option>
+        </field>
+      </fieldset>
+
+      <!-- 🔍 SEO e dados estruturados -->
+      <fieldset name="seo" label="TPL_VISIONARIO_FIELDSET_SEO">
+        <field name="enableJsonLd" type="radio" label="TPL_VISIONARIO_JSONLD" description="TPL_VISIONARIO_JSONLD_DESC" default="1">
+          <option value="1">JYES</option>
+          <option value="0">JNO</option>
+        </field>
+      </fieldset>
+
+    </fields>
+  </config>
+
+</extension>

@@ -1,0 +1,30 @@
+{
+  "assets": {
+    "visionario.style": {
+      "name": "visionario.style",
+      "type": "style",
+      "uri": "css/template.css",
+      "attributes": {
+        "rel": "stylesheet"
+      }
+    },
+    "visionario.script": {
+      "name": "visionario.script",
+      "type": "script",
+      "uri": "js/template.js",
+      "attributes": {
+        "defer": true
+      }
+    },
+    "visionario.bootstrap": {
+      "name": "visionario.bootstrap",
+      "type": "style",
+      "uri": "media/vendor/bootstrap/css/bootstrap.min.css"
+    },
+    "visionario.bootstrap.bundle": {
+      "name": "visionario.bootstrap.bundle",
+      "type": "script",
+      "uri": "media/vendor/bootstrap/js/bootstrap.bundle.min.js"
+    }
+  }
+}
