@@ -1,0 +1,43 @@
+# Arquivos e pastas do sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs e backups
+*.log
+*.bak
+*.tmp
+
+# Cache do Joomla
+/cache/
+/tmp/
+
+# Configurações locais
+configuration.php
+
+# Diretórios de instalação e atualização
+/installation/
+/administrator/backups/
+/administrator/logs/
+
+# Arquivos do Composer
+/vendor/
+/composer.lock
+
+# IDEs e editores
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Arquivos de deploy
+.env
+.env.local
+.env.*.local
+
+# Node.js (se estiver usando para build de frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+build/
