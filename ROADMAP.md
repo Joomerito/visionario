@@ -2,8 +2,8 @@
 
 ## Curto prazo (até setembro 2025)
 - [x] Overrides para com_users, com_search, com_tags, com_banners
-- [ ] Implementar com_contact com formulário acessível
-- [ ] Sistema de mensagens com ARIA live regions
+- [x] Implementar com_contact com formulário acessível
+- [x] Sistema de mensagens com ARIA live regions
 
 ## Médio prazo (Q4 2025)
 - [ ] Integração com WebP e lazy loading nativo
